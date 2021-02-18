@@ -1,0 +1,34 @@
+body {
+background: rgb(64, 75, 85);
+}
+.header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+background: #4e4e4e;
+}
+/* .header img logo {
+width: 5px;
+height: 5px;
+} */
+.menu li{
+    margin: 2px;
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    transition: .45s;
+}
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+.menu li a:hover {
+background: tomato;
+}
+.banner{
+    background-size: cover;
+    background-image: url("img/banner-5234590_1280.jpg");
+    height: 70vh;
+}
+
